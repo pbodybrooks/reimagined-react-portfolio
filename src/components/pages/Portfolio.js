@@ -1,4 +1,8 @@
 import React from 'react';
+import FriendCard from "../FriendCard";
+import Wrapper from "../Wrapper";
+import Title from "../Title";
+import friends from "../../friends.json";
 
 export default function Portfolio() {
   return (
@@ -12,6 +16,19 @@ export default function Portfolio() {
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
+      <Wrapper>
+        <Title>Friends List</Title>
+        {friends.map(friend => (
+          <FriendCard
+            id={friend.id}
+            key={friend.id}
+            name={friend.name}
+            image={friend.image}
+            occupation={friend.occupation}
+            location={friend.location}
+          />
+        ))}
+      </Wrapper>
     </div>
   );
 }
