@@ -1,31 +1,26 @@
 import React from 'react';
-import FriendCard from "../FriendCard";
+import ProjectCard from "../ProjectCard";
 import Wrapper from "../Wrapper";
 import Title from "../Title";
-import friends from "../../friends.json";
+import projects from "../../projects.json";
 
 export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Some of my favorite projects are shown below. Click on the image to go to the deployed application.
       </p>
       <Wrapper>
-        <Title>Friends List</Title>
-        {friends.map(friend => (
-          <FriendCard
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
+        <Title>My Projects</Title>
+        {projects.map(project => (
+          <ProjectCard
+            id={project.id}
+            key={project.id}
+            name={project.name}
+            image={project.image}
+            occupation={project.occupation}
+            location={project.location}
           />
         ))}
       </Wrapper>
