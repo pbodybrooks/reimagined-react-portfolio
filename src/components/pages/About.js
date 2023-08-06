@@ -8,9 +8,6 @@ const hero = process.env.PUBLIC_URL + '/assets/images/hero-surf.jpg';
 export default function About() {
   return (
     <div>
-      {/* <div className="hero" style={{ backgroundImage: `url(${hero})`}}>
-        <h1>About Me</h1>
-      </div> */}
       <div 
         className="hero"
         style={{"--img":`url(${hero})`}}>
@@ -19,7 +16,7 @@ export default function About() {
         <h1>Parker Brook</h1>
         <h2>Full Stack Web Developer</h2>
       </div>
-      <div className="about">
+      <div className="aboutCard">
         <img height="400px" width="400px" src={myPic} alt="myPic" />
         <p className="col-6 aboutMe">
           My name is Parker, a Mechanical Engineer and Full Stack Web Developer based in Salt Lake City, Utah. I bring an engineering mindset and analytically oriented approach to web development and problem solving. I am a recent graduate of the University of Utah's Full Stack Web Development Bootcamp. I am passionate about creating web applications that are intuitive, responsive, and dynamic. I am a team player and enjoy collaborating with others to create a great product. I am excited to continue to learn and grow as a developer.

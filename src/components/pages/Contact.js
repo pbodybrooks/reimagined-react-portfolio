@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
+    <div className="contact">
       <h1>Contact</h1>
       <p>
         Please feel free to contact me directly via email using the form below.
@@ -10,17 +10,18 @@ export default function Contact() {
       <form
         action="https://formspree.io/f/xwkdvava"
         method="POST"
+        className="contactForm"
       >
         <label>
           Your email:
-          <input type="email" name="email" placeholder="Enter your email address"></input>
+          <input type="email" name="email" placeholder="Enter your email address" className="emailInput"></input>
         </label>
         <label>
           Your message:
-          <textarea name="message" placeholder="Message"></textarea>
+          <textarea name="message" placeholder="Message" className="messageInput"></textarea>
         </label>
 
-        <button type="submit">Send</button>
+        <button type="submit" className="contactSubmitBtn">Send</button>
       </form>
     </div>
   );
