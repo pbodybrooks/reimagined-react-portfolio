@@ -9,16 +9,7 @@ export default function About() {
       <h1>About Me</h1>
       <img height="200px" width="200px" src={process.env.PUBLIC_URL + myPic} alt="myPic" />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        My name is Parker, a Mechanical Engineer and Full Stack Web Developer based in Salt Lake City, Utah. I bring an engineering mindset and analytically oriented approach to web development and problem solving. I am a recent graduate of the University of Utah's Full Stack Web Development Bootcamp. I am passionate about creating web applications that are intuitive, responsive, and dynamic. I am a team player and enjoy collaborating with others to create a great product. I am excited to continue to learn and grow as a developer.
       </p>
     </div>
   );

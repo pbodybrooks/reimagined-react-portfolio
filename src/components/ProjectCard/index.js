@@ -10,13 +10,13 @@ function ProjectCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <h3 style={{ fontStyle: "italic" }}>{props.name}</h3>
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+             {props.description}
           </li>
           <li>
-            <strong>Location:</strong> {props.location}
+            <strong>Technologies:</strong> {props.technologies}
           </li>
         </ul>
       </div>
