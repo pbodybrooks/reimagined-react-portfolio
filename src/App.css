@@ -1,9 +1,3 @@
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+body {
+    background-color: #141414; /* Replace #333 with the desired dark grey color */
 }
-

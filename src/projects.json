@@ -36,7 +36,7 @@
     "name": "SQL Employee Tracker",
     "image": "https://github.com/pbodybrooks/SQL-Employee-Tracker-ParkerBrook/blob/main/assets/images/screenshot.png?raw=true",
     "link": "https://github.com/pbodybrooks/SQL-Employee-Tracker-ParkerBrook",
-    "description": "that allows company administrators to easily manage their employees, roles, and departments within a database by utilizing a suite of view, add, update, and delete database operations.",
+    "description": "EMS that allows company administrators to easily manage their employees, roles, and departments within a database by utilizing a suite of view, add, update, and delete database operations.",
     "technologies": "MySQL, inquirer, console.table, dotenv"
   },
   {

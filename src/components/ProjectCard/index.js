@@ -8,10 +8,8 @@ function ProjectCard(props) {
         <img alt={props.name} src={props.image} />
       </div>
       <div className="content">
+        <h3 style={{ fontStyle: "italic" }}>{props.name}</h3>
         <ul>
-          <li>
-            <h3 style={{ fontStyle: "italic" }}>{props.name}</h3>
-          </li>
           <li>
              {props.description}
           </li>

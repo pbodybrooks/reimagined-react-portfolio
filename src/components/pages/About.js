@@ -14,15 +14,16 @@ export default function About() {
       <div 
         className="hero"
         style={{"--img":`url(${hero})`}}>
-        <h1>Parker Brook</h1>
       </div>
-      <div>
-        <img height="200px" width="200px" src={myPic} alt="myPic" />
-          <div className="hero-content">
-            <p>
-              My name is Parker, a Mechanical Engineer and Full Stack Web Developer based in Salt Lake City, Utah. I bring an engineering mindset and analytically oriented approach to web development and problem solving. I am a recent graduate of the University of Utah's Full Stack Web Development Bootcamp. I am passionate about creating web applications that are intuitive, responsive, and dynamic. I am a team player and enjoy collaborating with others to create a great product. I am excited to continue to learn and grow as a developer.
-            </p>
-          </div>
+      <div className="hero-content">
+        <h1>Parker Brook</h1>
+        <h2>Full Stack Web Developer</h2>
+      </div>
+      <div className="about">
+        <img height="400px" width="400px" src={myPic} alt="myPic" />
+        <p className="col-6 aboutMe">
+          My name is Parker, a Mechanical Engineer and Full Stack Web Developer based in Salt Lake City, Utah. I bring an engineering mindset and analytically oriented approach to web development and problem solving. I am a recent graduate of the University of Utah's Full Stack Web Development Bootcamp. I am passionate about creating web applications that are intuitive, responsive, and dynamic. I am a team player and enjoy collaborating with others to create a great product. I am excited to continue to learn and grow as a developer.
+        </p>
       </div>
     </div>
   );

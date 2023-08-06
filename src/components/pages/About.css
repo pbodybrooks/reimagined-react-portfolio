@@ -4,9 +4,53 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    
+    position: relative;
+    /* Add position: relative to enable positioning of child elements */
 }
 
-/* Style the content within the hero section */
 .hero-content {
+    position: absolute;
+    top: 20%;
+    /* Move the h1 element to the middle vertically */
+    left: 40%;
+    /* Move the h1 element to the middle horizontally */
+    transform: translate(-50%, -50%);
+    /* Center the h1 element */
+    z-index: 1;
+    /* Ensure the h1 element is on top of the hero image */
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /* Remove default margin */
+}
+
+h2 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    /* Remove default margin */
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
-} 
+    margin-top: 10vh;
+    /* Adjust the margin-top as needed */
+}
+
+.aboutMe {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10vh;
+}

@@ -6,13 +6,12 @@ import projects from "../../projects.json";
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className="portfolio">
       <h1>Portfolio</h1>
       <p>
         Some of my favorite projects are shown below. Click on the image to go to the deployed application.
       </p>
       <Wrapper>
-        <Title>Projects</Title>
         {projects.map(project => (
           <a href={project.link} target="_blank" rel="noopener noreferrer" key={project.id} className="anchor"> 
             <ProjectCard
