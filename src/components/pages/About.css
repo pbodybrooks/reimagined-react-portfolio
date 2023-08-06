@@ -1,0 +1,12 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.255)), var(--img);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Style the content within the hero section */
+.hero-content {
+    padding: 20px;
+} 
