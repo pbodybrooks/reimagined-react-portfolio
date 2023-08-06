@@ -28,10 +28,13 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} className="nav" />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      <div className="content">
-        {renderPage()}
+      <div className="contentContainer">
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} className="nav" />
+        {/* Here we are calling the renderPage method which will return a component  */}
+        <div className="content">
+          {renderPage()}
+        </div>
+        
       </div>
       <Footer />
     </div>
