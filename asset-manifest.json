@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reimagined-react-portfolio/static/css/main.5a5639a7.css",
+    "main.js": "/reimagined-react-portfolio/static/js/main.9e9fdd8e.js",
+    "static/media/hero-surf.jpg": "/reimagined-react-portfolio/static/media/hero-surf.43ab3119fb9ff79a45e7.jpg",
+    "static/media/myPic.jpeg": "/reimagined-react-portfolio/static/media/myPic.2ba7f6959901a7212872.jpeg",
+    "static/media/resume.pdf": "/reimagined-react-portfolio/static/media/resume.989d41bf0c1a379e6311.pdf",
+    "index.html": "/reimagined-react-portfolio/index.html",
+    "main.5a5639a7.css.map": "/reimagined-react-portfolio/static/css/main.5a5639a7.css.map",
+    "main.9e9fdd8e.js.map": "/reimagined-react-portfolio/static/js/main.9e9fdd8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a5639a7.css",
+    "static/js/main.9e9fdd8e.js"
+  ]
+}
