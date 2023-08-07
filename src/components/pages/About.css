@@ -1,5 +1,6 @@
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.255)), var(--img);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.255)), url("../assets/images/hero-surf.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.255)), var(--img); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
