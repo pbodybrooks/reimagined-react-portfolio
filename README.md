@@ -1,7 +1,7 @@
 # React Developer Portfolio ![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
 ## Description 
-A developer portfolio featuring information about me, my favorite projects, my resume, and a form to contact me in addition to links to my GitHub and LinkedIn.
+My ***(developer portfolio)[https://pbodybrooks.github.io/reimagined-react-portfolio/]*** featuring information about me, my favorite projects, my resume, and a form to contact me in addition to links to my GitHub and LinkedIn.
 
 ## Table of Contents
 
