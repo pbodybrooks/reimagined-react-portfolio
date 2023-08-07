@@ -15,7 +15,7 @@ A developer portfolio featuring information about me, my favorite projects, my r
 * [Questions](#questions)
 
 ## Screenshot
-![Screenshot of app.](public/assets/images/screenshot.png)
+![Screenshot of app.](src/components/assets/images/screenshot.png)
 
 ## Installation 
 N/A
