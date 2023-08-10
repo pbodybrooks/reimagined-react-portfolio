@@ -2,15 +2,16 @@
   {
     "id": 1,
     "name": "Ghostbusters",
-    "image": "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg?w=1800&t=st=1691344924~exp=1691345524~hmac=57e6c3794fda9d1ef8ba5bd4e02aeb2c9d4fb1bdc8ab4e2170774331696d5221",
-    "link": "www.google.com",
+    "imagePath": "/assets/bustin.png",
+    "imageLink": "https://flexcellent.herokuapp.com/login",
     "description": "The home page for the ghostbusters - an interactive and responsive single-page MERN stack application.",
     "technologies": "MongoDB, Express, Node, React, GraphQL, Apollo Server, React Router, JWT, bcrypt"
   },
   {
     "id": 2,
     "name": "Flexcellent Fitness Tracker",
-    "image": "https://github.com/pbodybrooks/Flexcellent-Fitness-Tracker/blob/main/public/assets/images/screenshot2.png?raw=true",
+    "imagePath": "",
+    "imageLink": "https://github.com/pbodybrooks/Flexcellent-Fitness-Tracker/blob/main/public/assets/images/screenshot2.png?raw=true",
     "link": "https://flexcellent.herokuapp.com/login",
     "description": "A fitness tracker that allows you to track your workouts, explore new API-generated exercises, and see your progress over time.",
     "technologies": "Full Stack, JavaScript, Handlebars.js, Node.js, Express, MySQL, chart.js"
@@ -18,7 +19,8 @@
   {
     "id": 3,
     "name": "MVC Tech Blog",
-    "image": "https://github.com/pbodybrooks/MVC-Tech-Blog-ParkerBrook/blob/main/public/assets/screenshot1.png?raw=true",
+    "imagePath": "",
+    "imageLink": "https://github.com/pbodybrooks/MVC-Tech-Blog-ParkerBrook/blob/main/public/assets/screenshot1.png?raw=true",
     "link": "https://pbodybrooks-tech-blog-c2988c35c1b0.herokuapp.com/",
     "description": "A place where users can share their thoughts and opinions on the latest tech news and programming-related information.",
     "technologies": "Full Stack, JavaScript, Handlebars.js, Node.js, Express, MySQL"
@@ -26,7 +28,8 @@
   {
     "id": 4,
     "name": "ORM E-Commerce Back End",
-    "image": "https://github.com/pbodybrooks/ORM-E-Commerce-Backend-ParkerBrook/blob/main/assets/images/screenshot.png?raw=true",
+    "imagePath": "",
+    "imageLink": "https://github.com/pbodybrooks/ORM-E-Commerce-Backend-ParkerBrook/blob/main/assets/images/screenshot.png?raw=true",
     "link": "https://github.com/pbodybrooks/ORM-E-Commerce-Backend-ParkerBrook",
     "description": "The backend functionality of an E-commerce backend. It serves as a way to manage products, categories, and tags via an Express.js API and a MySQL database.",
     "technologies": "Express.js API, MySQL, Sequelize"
@@ -34,7 +37,8 @@
   {
     "id": 5,
     "name": "SQL Employee Tracker",
-    "image": "https://github.com/pbodybrooks/SQL-Employee-Tracker-ParkerBrook/blob/main/assets/images/screenshot.png?raw=true",
+    "imagePath": "",
+    "imageLink": "https://github.com/pbodybrooks/SQL-Employee-Tracker-ParkerBrook/blob/main/assets/images/screenshot.png?raw=true",
     "link": "https://github.com/pbodybrooks/SQL-Employee-Tracker-ParkerBrook",
     "description": "EMS that allows company administrators to easily manage their employees, roles, and departments within a database by utilizing a suite of view, add, update, and delete database operations.",
     "technologies": "MySQL, inquirer, console.table, dotenv"
@@ -42,7 +46,8 @@
   {
     "id": 6,
     "name": "Get a Way to Getaway",
-    "image": "https://github.com/pbodybrooks/parker-and-the-boys/blob/main/assets/images/screenshot.png?raw=true",
+    "imagePath": "",
+    "imageLink": "https://github.com/pbodybrooks/parker-and-the-boys/blob/main/assets/images/screenshot.png?raw=true",
     "description": "A weekend getaway app that let's you find a destination within your desired driving range that suits your preferred weather conditions",
     "link": "https://pbodybrooks.github.io/parker-and-the-boys/",
     "technologies": "JavaScript, HTML, CSS, Client-side APIs"

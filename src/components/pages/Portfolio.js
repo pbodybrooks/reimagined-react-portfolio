@@ -16,7 +16,8 @@ export default function Portfolio() {
             <ProjectCard
               id={project.id}
               name={project.name}
-              image={project.image}
+              imagePath={project.imagePath}
+              imageLink={project.imageLink}
               description={project.description}
               technologies={project.technologies}
             />
