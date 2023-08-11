@@ -3,14 +3,15 @@
     "id": 1,
     "name": "Ghostbusters",
     "imagePath": "/assets/bustin.png",
-    "imageLink": "https://flexcellent.herokuapp.com/login",
+    "imageLink": "https://flexcellent.herokuapp.com/login",   
+    "link": "https://triskaidekaphobia.herokuapp.com/login",
     "description": "The home page for the ghostbusters - an interactive and responsive single-page MERN stack application.",
     "technologies": "MongoDB, Express, Node, React, GraphQL, Apollo Server, React Router, JWT, bcrypt"
   },
   {
     "id": 2,
     "name": "Flexcellent Fitness Tracker",
-    "imagePath": "",
+    "imagePath": "/assets/flexcellent3.png",
     "imageLink": "https://github.com/pbodybrooks/Flexcellent-Fitness-Tracker/blob/main/public/assets/images/screenshot2.png?raw=true",
     "link": "https://flexcellent.herokuapp.com/login",
     "description": "A fitness tracker that allows you to track your workouts, explore new API-generated exercises, and see your progress over time.",

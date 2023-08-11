@@ -2,10 +2,16 @@ import React, { useState } from "react";
 import "./style.css";
 
 function ProjectCard(props) {
-  const [imageSrc, setImageSrc] = useState(props.imageLink);
+  // const [imageSrc, setImageSrc] = useState(props.imageLink);
+
+  // const handleImageError = () => {
+  //   setImageSrc(process.env.PUBLIC_URL + props.imagePath);
+  // };
+
+  const [imageSrc, setImageSrc] = useState(process.env.PUBLIC_URL + props.imagePath);
 
   const handleImageError = () => {
-    setImageSrc(process.env.PUBLIC_URL + props.imagePath);
+    setImageSrc(props.imageLink);
   };
 
   return (
