@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "MVC Tech Blog",
-    "imagePath": "",
+    "imagePath": "/assets/techblog.png",
     "imageLink": "https://github.com/pbodybrooks/MVC-Tech-Blog-ParkerBrook/blob/main/public/assets/screenshot1.png?raw=true",
     "link": "https://pbodybrooks-tech-blog-c2988c35c1b0.herokuapp.com/",
     "description": "A place where users can share their thoughts and opinions on the latest tech news and programming-related information.",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "ORM E-Commerce Back End",
-    "imagePath": "",
+    "imagePath": "/assets/ecombackend.png",
     "imageLink": "https://github.com/pbodybrooks/ORM-E-Commerce-Backend-ParkerBrook/blob/main/assets/images/screenshot.png?raw=true",
     "link": "https://github.com/pbodybrooks/ORM-E-Commerce-Backend-ParkerBrook",
     "description": "The backend functionality of an E-commerce backend. It serves as a way to manage products, categories, and tags via an Express.js API and a MySQL database.",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "SQL Employee Tracker",
-    "imagePath": "",
+    "imagePath": "/assets/sqlems.png",
     "imageLink": "https://github.com/pbodybrooks/SQL-Employee-Tracker-ParkerBrook/blob/main/assets/images/screenshot.png?raw=true",
     "link": "https://github.com/pbodybrooks/SQL-Employee-Tracker-ParkerBrook",
     "description": "EMS that allows company administrators to easily manage their employees, roles, and departments within a database by utilizing a suite of view, add, update, and delete database operations.",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "Get a Way to Getaway",
-    "imagePath": "",
+    "imagePath": "/assets/getaway.png",
     "imageLink": "https://github.com/pbodybrooks/parker-and-the-boys/blob/main/assets/images/screenshot.png?raw=true",
     "description": "A weekend getaway app that let's you find a destination within your desired driving range that suits your preferred weather conditions",
     "link": "https://pbodybrooks.github.io/parker-and-the-boys/",
