@@ -3,8 +3,8 @@
     "id": 1,
     "name": "Ghostbusters",
     "imagePath": "/assets/bustin.png",
-    "imageLink": "https://flexcellent.herokuapp.com/login",   
-    "link": "https://triskaidekaphobia.herokuapp.com/login",
+    "imageLink": "https://github.com/ashtreid/ghostbusters/raw/main/client/src/customIcons/ghostbusters-blackbackground.png",   
+    "link": "http://triskaidekaphobia-48aedc7fe5ca.herokuapp.com/",
     "description": "The home page for the ghostbusters - an interactive and responsive single-page MERN stack application.",
     "technologies": "MongoDB, Express, Node, React, GraphQL, Apollo Server, React Router, JWT, bcrypt"
   },
